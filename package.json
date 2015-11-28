@@ -1,0 +1,43 @@
+{
+  "name": "gert-spanning-tree",
+  "version": "0.0.0",
+  "description": "Finds rooted spanning trees of undirected Gert graphs",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "lab -a code -t 100 -L",
+    "coveralls": "lab -a code -r lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devinivy/gert-spanning-tree"
+  },
+  "keywords": [
+    "graph",
+    "traversal",
+    "spanning",
+    "tree",
+    "algorithm",
+    "algorithms"
+  ],
+  "author": "Devin Ivy <devin@bigroomstudios.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devinivy/gert-spanning-tree/issues"
+  },
+  "homepage": "https://github.com/devinivy/gert-spanning-tree",
+  "dependencies": {
+    "double-ended-queue": "2.1.0-0"
+  },
+  "peerDependencies": {
+    "gert": "2.x.x"
+  },
+  "devDependencies": {
+    "code": "1.x.x",
+    "coveralls": "2.x.x",
+    "gert": "2.x.x",
+    "lab": "6.x.x"
+  }
+}
