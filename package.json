@@ -1,6 +1,6 @@
 {
   "name": "gert-spanning-tree",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Finds rooted spanning trees of undirected Gert graphs",
   "main": "lib/index.js",
   "directories": {
