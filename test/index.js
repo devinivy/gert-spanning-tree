@@ -16,7 +16,7 @@ var expect = Code.expect;
 
 describe('Spanning tree algorithm', function () {
 
-    it('throws on receiving a directed graph', function (done) {
+    it('throws on receiving a directed graph.', function (done) {
 
         var graph = new Graph({
             directed: true,
@@ -45,7 +45,8 @@ describe('Spanning tree algorithm', function () {
             ]
         });
 
-        var spanningTree;
+        var spanningTreeBF;
+        var spanningTreeDF;
         var roots = graph.getVertices(null, true);
         for (var i = 0; i < roots.length; i++) {
 
